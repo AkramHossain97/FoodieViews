@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/drawable/button_bg.xml" value="0.237" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/drawable/circle_in.xml" value="0.237" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/drawable/close_icon.xml" value="0.237" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/about_us_fragment.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_current_user_single_post.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_home.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_login.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_main.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_maps_current.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_reviewed_posts.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/activity_single_user_posts.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/comment_row.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/custom_layout.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/dashboard_fragment.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/demofd.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/drawer_menu.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/item_option.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/login_tab_fragment.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/post_row.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Akram/AndroidStudioProjects/FoodieViews/app/src/main/res/layout/signup_tab_fragment.xml" value="0.22735507246376813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

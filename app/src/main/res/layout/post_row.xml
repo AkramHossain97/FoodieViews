@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/offWhite">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/PostProfilePicture"
+        android:layout_width="50dp"
+        android:padding="5dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher_round">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/post_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center|left"
+            android:fontFamily="@font/raleway_bold"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:text="User Name"
+            android:background="@color/offWhite"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Post_Time"
+            android:background="@color/offWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="2dp"
+            android:inputType="date"
+            android:textSize="11sp"
+            android:text="Time"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+
+
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+        <ImageView
+
+            android:id="@+id/post_image"
+            android:layout_width="370dp"
+            android:layout_height="248dp"
+            android:background="@color/offWhite"
+            android:adjustViewBounds="true"
+
+            app:srcCompat="@mipmap/add_btn" />
+
+        <TextView
+            android:fontFamily="@font/raleway_bold"
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:background="@color/offWhite"
+
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Post title goes here"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:fontFamily="@font/raleway_bold"
+            android:layout_width="match_parent"
+            android:background="@color/offWhite"
+
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:text="Post description goes here " />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/offWhite">
+
+            <ImageButton
+                android:id="@+id/LikeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/thumbsup_gray" />
+
+
+            <TextView
+                android:id="@+id/LikesText"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/raleway_bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Likes"
+                android:textSize="15dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="255dp"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:clickable="true"
+                android:fontFamily="@font/raleway_bold"
+                android:gravity="center"
+                android:hint="Comment"
+
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

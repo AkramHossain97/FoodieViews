@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CurrentUserSinglePost"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/offWhite">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/SinglePostProfilePicture"
+            android:layout_width="50dp"
+            android:padding="5dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_round">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/SinglePost_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center|left"
+                android:fontFamily="@font/raleway_bold"
+                android:inputType="textPersonName"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="User Name"
+                android:background="@color/offWhite"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/SinglePost_Time"
+                android:background="@color/offWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="2dp"
+                android:inputType="date"
+                android:textSize="11sp"
+                android:text="Time"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+
+
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_gravity="center"
+
+        android:id="@+id/SinglePost_image"
+        android:layout_width="370dp"
+        android:layout_height="248dp"
+        android:background="@color/offWhite"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_bg"
+        android:text="Delete Post"
+        android:id="@+id/Delete_Post_CU"
+        >
+
+    </Button>
+
+    <TextView
+        android:fontFamily="@font/raleway_bold"
+        android:id="@+id/SinglePost_title"
+        android:layout_width="match_parent"
+        android:background="@color/offWhite"
+
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Post title goes here"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/SinglePost_desc"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_width="match_parent"
+        android:background="@color/offWhite"
+
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:text="Post description goes here " />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:id="@+id/CommentList"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/CommentProfilePicture"
+            android:layout_width="50dp"
+            android:padding="5dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_round"/>
+
+
+        <EditText
+            android:id="@+id/CommentPost"
+            android:layout_marginLeft="10dp"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_bg"
+            android:backgroundTint="@color/offWhite"
+            android:hint="Comment . . . . "
+            android:paddingLeft="3dp">
+
+        </EditText>
+
+
+        <ImageButton
+            android:id="@+id/SendButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_marginLeft="5dp"
+
+            >
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
